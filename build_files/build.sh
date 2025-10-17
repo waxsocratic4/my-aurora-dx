@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux 
+dnf5 install -y @virtualization rocm git tmux radeontop sysstat direnv fira-code-fonts net-tools pciutils uv node python3 python3-setuptools python3-wheel python3-torch clang golang cargo waydroid clamav
 
 # Use a COPR Example:
 #
