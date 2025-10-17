@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y @virtualization rocm git tmux radeontop sysstat direnv uv node python3 python3-setuptools python3-wheel python3-torch clang golang cargo waydroid
+dnf5 install -y @virtualization radeontop git direnv uv node
 
 # Use a COPR Example:
 #
